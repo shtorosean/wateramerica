@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pageflow:Pageflow xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pageflow="http://www.sybase.com/suade/pageflow" id="pf13848904800600" configfile="/WA-FINAL/WebContent/WEB-INF/faces-config.xml">
+  <nodes xsi:type="pageflow:PFPage" name="RegConfirmation.xhtml" x="63" y="138" id="pf13848912508551" inlinks="pf13848912508552" path="/RegConfirmation.xhtml"/>
+  <nodes xsi:type="pageflow:PFPage" name="Registration.xhtml" x="560" y="106" id="pf13848912508553" outlinks="pf13848912508552 pf13848912508554" inlinks="pf13848912508554" path="/Registration.xhtml"/>
+  <links id="pf13848912508552" target="pf13848912508551" source="pf13848912508553"/>
+  <links id="pf13848912508554" target="pf13848912508553" source="pf13848912508553" outcome="failure">
+    <bendPoints d1Height="-36" d2Height="-36"/>
+    <bendPoints d1Width="-64" d1Height="-36" d2Width="-64" d2Height="-36"/>
+    <bendPoints d1Width="-64" d2Width="-64"/>
+  </links>
+</pageflow:Pageflow>
